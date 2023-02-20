@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java Quiz v1</title>
+    <style>
+    *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #target{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: flex-start;
+
+
+        }
+        #target >*{
+            width: 100vw;
+margin: 1%;
+padding: 1%;
+background-color: #efefef;
+border: 2px solid #efefef;
+padding-left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="target">mlem</div>
+ 
+<script>
+
+    const screen = document.querySelector('#target')
+    let i
+    let Quiz= "mlem"
+    let quiz_topic
+    let selected
+    if (Quiz=="mlem"){
+        screen.innerHTML=`
+        <label>Choose a topic from this list:
+<input list="topics" name="topic_selector" /></label>
+<datalist id="topics">
+  <option value="katakana">
+  <option value="hiragana">
+</datalist>
+
+        `
+ quiz_topic= document.querySelector("input")
+quiz_topic.addEventListener('change',()=>{
+ selected = `${quiz_topic.value}.json`
+run_main()
+
+})
+    }
+    let run_main=()=>{
+
+        
+        // build a new card to be displayed , need to add styling
+        function card(id,string){
+            return`   <div class="card ${id}">
+                <p id="${id}">${string}</p>
+                </div>`
+            }
+            // concatanates a string to the screen , use in conjuction with card function
+            function writeToScreen(string){
+    screen.innerHTML+=string
+}
+// clears the screen
+function screenClear(){
+    screen.innerHTML=''
+}
+// gets a random question from an array
+function fetchQuestion(arr){
+    let index = Math.floor((arr.length-1)*Math.random())
+    return arr[index]
+}
+// get the questions 
+console.log(selected)
+fetch(`./${selected}`)
+.then(response=>response.json())
+.then(data=>{
+    // build up a set of questions
+    function nextLevel(){
+        screenClear()
+        i =[]
+        i.push(fetchQuestion(data))
+        i.push(fetchQuestion(data))
+        i.push(fetchQuestion(data))
+        i.push(fetchQuestion(data))
+        writeToScreen('<level>level 0</level>')
+        // display one question of the selected four
+        writeToScreen(`<question>${i[Math.floor((i.length-1)*Math.random())].question}</question>`)
+        
+        // display the selection of answers
+        i.forEach((answer,index)=>{
+            writeToScreen(card(index,answer.answer))
+        })
+        cards = document.querySelectorAll('.card')
+        //  check if the correct answer was chosen
+        cards.forEach(card=>{
+            card.addEventListener('click',(e)=>{
+                let index=e.target.id
+                // check answer
+                let level =parseInt(getLevel().split(' ')[1])
+                if (i[index].question==getQuestion()){
+                    // increment level
+                    level=level+1
+                    nextLevel()
+                    document.querySelector('level').innerHTML=`level ${level}`
+                }else{
+                    // display correct answer and reload page 
+                    let x = i.filter((a)=>{if(a.question==getQuestion()){return a}})[0]
+                    alert(`correct answer was "${x.answer}"
+                    you scored ${level}`)
+                level=0
+                nextLevel()
+                }
+            })
+        })
+    }
+    screenClear()
+let getQuestion = ()=>document.querySelector('question').innerHTML
+let getLevel = ()=>document.querySelector('level').innerHTML
+nextLevel()
+
+
+})
+
+}
+</script>
+</body>
+</html>
