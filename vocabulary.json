@@ -57,5 +57,6 @@
     {"question": "会社", "answer": "company"},
     {"question": "肉", "answer": "meat"},
     {"question": "植物", "answer": "plant"},
+    {"question": "笑", "answer": "laugh"},
     {"question": "死", "answer": "death"}
     ]
