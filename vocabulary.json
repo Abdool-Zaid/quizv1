@@ -51,5 +51,11 @@
     {"question": "安い", "answer": "cheap"},
     {"question": "休み", "answer": "to rest"},
     {"question": "家", "answer": "house"},
+    {"question": "待ちます", "answer": "to wait"},
+    {"question": "椅子", "answer": "chair"},
+    {"question": "声", "answer": "voice"},
+    {"question": "会社", "answer": "company"},
+    {"question": "肉", "answer": "meat"},
+    {"question": "植物", "answer": "plant"},
     {"question": "死", "answer": "death"}
     ]
