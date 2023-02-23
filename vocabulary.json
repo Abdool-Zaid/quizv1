@@ -58,5 +58,10 @@
     {"question": "肉", "answer": "meat"},
     {"question": "植物", "answer": "plant"},
     {"question": "笑", "answer": "laugh"},
+    {"question": "携帯", "answer": "phone"},
+    {"question": "消しゴム", "answer": "eraser"},
+    {"question": "開けて", "answer": "to open"},
+    {"question": "閉めて", "answer": "to close"},
+    {"question": "質感", "answer": "texture"},
     {"question": "死", "answer": "death"}
     ]
