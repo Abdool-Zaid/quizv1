@@ -119,9 +119,17 @@ fetch(`./${selected}`)
                     let x = i.filter((a)=>{if(a.question==getQuestion()){return a}})[0]
                     alert(`correct answer was "${x.answer}"
                     you scored ${level}`)
-                level=0
-                nextLevel()
+                    level=0
+                    nextLevel()
                 }
+            })
+        })
+        
+        
+        cards.forEach(card=>{
+            card.addEventListener('contextmenu',e=>{
+                let index=e.target.id
+                    alert(`${i[index].sound}`)
             })
         })
     }
