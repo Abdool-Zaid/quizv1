@@ -3,7 +3,6 @@
     {"question": "朝", "answer": "morning"},
     {"question": "男", "answer": "man"},
     {"question": "女", "answer": "woman"},
-    {"question": "子", "answer": "woman"},
     {"question": "子", "answer": "child"},
     {"question": "獅子", "answer": "lion"},
     {"question": "黒", "answer": "black"},
@@ -63,5 +62,14 @@
     {"question": "開けて", "answer": "to open"},
     {"question": "閉めて", "answer": "to close"},
     {"question": "質感", "answer": "texture"},
+    {"question": "次", "answer": "next"},
+    {"question": "大学", "answer": "next"},
+    {"question": "牛肉", "answer": "beef"},
+    {"question": "秋", "answer": "autumn"},
+    {"question": "夏", "answer": "summer"},
+    {"question": "北", "answer": "north"},
+    {"question": "南", "answer": "south"},
+    {"question": "西", "answer": "west"},
+    {"question": "東", "answer": "east"},
     {"question": "死", "answer": "death"}
     ]
