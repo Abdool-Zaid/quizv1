@@ -1,0 +1,18 @@
+[
+    {"question": "つ", "answer": "tsu general counter for counting objects that don't have a specific counter word"},
+    {"question": "枚", "answer": "mai counter for thin, flat objects like sheets of paper or photographs"},
+    {"question": "冊", "answer": "satsu counter for books, magazines, and other bound items"},
+    {"question": "台", "answer": "dai counter for machinery, vehicles, and electronic devices"},
+    {"question": "個", "answer": "ko counter for small, round objects like balls, fruit, or buttons"},
+    {"question": "本", "answer": "hon counter for long, thin objects like pencils, pens, or chopsticks"},
+    {"question": "着", "answer": "chaku counter for clothing items like shirts, pants, or dresses"},
+    {"question": "杯", "answer": "hai counter for cups, glasses, or other vessels for drinking"},
+    {"question": "匹", "answer": "hiki counter for small animals like dogs, cats, or fish"},
+    {"question": "頭", "answer": "tou  counter for large animals like horses, cows, or elephants"},
+    {"question": "回", "answer": "kai counter for events, occasions, or times something has happened"},
+    {"question": "箇所", "answer": "kasho counter for places, locations, or spots"},
+    {"question": "階", "answer": "kai counter for floors or stories of a building"},
+    {"question": "色", "answer": "shoku counter for colours"},
+    {"question": "頁", "answer": "peeji counter for pages"},
+    {"question": "人", "answer": "nin  counter for counting people"}
+    ]
