@@ -125,5 +125,15 @@
     {"question": "社長", "answer": "ceo", "sound":"shachou"}, 
     {"question": "妹", "answer": "little sister", "sound":"imouto"}, 
     {"question": "信号", "answer": "signal", "sound":"shingou"}, 
+    {"question": "落ちた", "answer": "fell", "sound":"ochita"}, 
+    {"question": "弱い", "answer": "weak", "sound":"yowai"}, 
+    {"question": "大丈夫", "answer": "ok", "sound":"daijyoubou"}, 
+    {"question": "モビルバッテリー", "answer": "power bank", "sound":"mobiru battery"}, 
+    {"question": "お知らせ", "answer": "notice", "sound":"oshirase"}, 
+    {"question": "早い", "answer": "fast (speed)", "sound":"hayai"}, 
+    {"question": "会見", "answer": "press conference", "sound":"kaiken"}, 
+    {"question": "お風呂", "answer": "bath", "sound":"ofurou"}, 
+    {"question": "台所", "answer": "kitchen", "sound":"daidokorou"}, 
+    {"question": "廊下", "answer": "passage", "sound":"rouka"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
 ]
