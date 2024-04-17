@@ -135,5 +135,10 @@
     {"question": "お風呂", "answer": "bath", "sound":"ofurou"}, 
     {"question": "台所", "answer": "kitchen", "sound":"daidokorou"}, 
     {"question": "廊下", "answer": "passage", "sound":"rouka"}, 
+    {"question": "点", "answer": "point", "sound":"ten"}, 
+    {"question": "虫", "answer": "insect", "sound":"mushi"}, 
+    {"question": "独立", "answer": "independence", "sound":"dokuritsu"}, 
+    {"question": "終る", "answer": "end", "sound":"owaru"}, 
+    {"question": "残る", "answer": "remain", "sound":"nokoru"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
 ]
