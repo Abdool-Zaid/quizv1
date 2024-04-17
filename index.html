@@ -83,7 +83,6 @@ function fetchQuestion(arr){
     return arr[index]
 }
 // get the questions 
-console.log(selected)
 fetch(`./${selected}`)
 .then(response=>response.json())
 .then(data=>{

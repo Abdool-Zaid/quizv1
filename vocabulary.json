@@ -100,5 +100,13 @@
     {"question": "微笑む", "answer": "smile", "sound":"hohoemu"}, 
     {"question": "行く", "answer": "to go (somewhere)", "sound":"iku"}, 
     {"question": "来る", "answer": "to come ", "sound":"kuru"}, 
+    {"question": "別", "answer": "different", "sound":"betsu"}, 
+    {"question": "別々", "answer": "separately", "sound":"betsubetsu"}, 
+    {"question": "腕", "answer": "arm", "sound":"ude"}, 
+    {"question": "腕前", "answer": "skill", "sound":"udemae"}, 
+    {"question": "残業", "answer": "overtime", "sound":"zangyou"}, 
+    {"question": "大人", "answer": "adult", "sound":"otona"}, 
+    {"question": "充電器", "answer": "charger", "sound":"jyudenki"}, 
+    {"question": "武器", "answer": "weapon", "sound":"bukki"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
 ]
