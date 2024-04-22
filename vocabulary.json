@@ -140,5 +140,7 @@
     {"question": "独立", "answer": "independence", "sound":"dokuritsu"}, 
     {"question": "終る", "answer": "end", "sound":"owaru"}, 
     {"question": "残る", "answer": "remain", "sound":"nokoru"}, 
+    {"question": "請求書", "answer": "bill", "sound":"seikyuushou"}, 
+    {"question": "ラジオ", "answer": "radio", "sound":"rajio"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
 ]
