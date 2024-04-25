@@ -130,7 +130,9 @@ fetch(`./${selected}`)
             card.addEventListener('contextmenu',e=>{
                 e.preventDefault();
                 let index=e.target.id
+                if(i[index].sound){
                     alert(`${i[index].sound}`)
+                }
             })
         })
     }
