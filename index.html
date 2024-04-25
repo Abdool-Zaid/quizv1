@@ -128,6 +128,7 @@ fetch(`./${selected}`)
         
         cards.forEach(card=>{
             card.addEventListener('contextmenu',e=>{
+                e.preventDefault();
                 let index=e.target.id
                     alert(`${i[index].sound}`)
             })
