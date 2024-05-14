@@ -147,5 +147,6 @@
     {"question": "平気", "answer": "fine (ok)", "sound":"heeki"}, 
     {"question": "バス停", "answer": "bus stop", "sound":"bus stey"}, 
     {"question": "情報", "answer": "information", "sound":"jouhou"}, 
+    {"question": "透明", "answer": "transparent", "sound":"toumei"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
 ]
