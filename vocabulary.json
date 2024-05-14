@@ -144,5 +144,8 @@
     {"question": "ラジオ", "answer": "radio", "sound":"rajio"}, 
     {"question": "玉座", "answer": "throne", "sound":"gyokuza"}, 
     {"question": "科目", "answer": "subject", "sound":"kamoku"}, 
+    {"question": "平気", "answer": "fine (ok)", "sound":"heeki"}, 
+    {"question": "バス停", "answer": "bus stop", "sound":"bus stey"}, 
+    {"question": "情報", "answer": "information", "sound":"jouhou"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
 ]
