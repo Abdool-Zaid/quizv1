@@ -156,5 +156,6 @@
     {"question": "最初", "answer": "start", "sound":"saishou"}, 
     {"question": "付いて", "answer": "attached", "sound":"tsuite"}, 
     {"question": "枠", "answer": "frame", "sound":"waku"}, 
+    {"question": "唇", "answer": "lips", "sound":"kutiberu"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
 ]
