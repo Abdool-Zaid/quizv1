@@ -150,5 +150,11 @@
     {"question": "透明", "answer": "transparent", "sound":"toumei"}, 
     {"question": "未来", "answer": "future", "sound":"mirai"}, 
     {"question": "向上", "answer": "improvements", "sound":"koujou"}, 
+    {"question": "書き込み", "answer": "writing (post)", "sound":"kakikomi"}, 
+    {"question": "書き込み", "answer": "writing (post)", "sound":"kakikomi"}, 
+    {"question": "視聴", "answer": "watch (tv/media)", "sound":"shichou"}, 
+    {"question": "最初", "answer": "start", "sound":"saishou"}, 
+    {"question": "付いて", "answer": "attached", "sound":"tsuite"}, 
+    {"question": "枠", "answer": "frame", "sound":"waku"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
 ]
