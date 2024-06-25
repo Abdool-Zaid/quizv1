@@ -157,5 +157,6 @@
     {"question": "付いて", "answer": "attached", "sound":"tsuite"}, 
     {"question": "枠", "answer": "frame", "sound":"waku"}, 
     {"question": "唇", "answer": "lips", "sound":"kutiberu"}, 
+    {"question": "滝", "answer": "waterfall", "sound":"taki"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
 ]
