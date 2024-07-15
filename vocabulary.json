@@ -158,5 +158,6 @@
     {"question": "枠", "answer": "frame", "sound":"waku"}, 
     {"question": "唇", "answer": "lips", "sound":"kutiberu"}, 
     {"question": "滝", "answer": "waterfall", "sound":"taki"}, 
+    {"question": "字幕", "answer": "subtitle", "sound":"jimaku"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
 ]
