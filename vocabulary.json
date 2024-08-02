@@ -160,4 +160,5 @@
     {"question": "滝", "answer": "waterfall", "sound":"taki"}, 
     {"question": "字幕", "answer": "subtitle", "sound":"jimaku"}, 
     {"question": "たんす", "answer": "chest of drawers", "sound":"tansu"}
+    {"question": "発売", "answer": "on sale", "sound":"hatsubai"}
 ]
